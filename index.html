@@ -1,0 +1,178 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>index.html</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">Introducción</a>
+          <a href="#secc2">Consecuencias</a>
+          <a href="#secc3">Ventajas</a>
+          <a href="#secc4">Conclusión</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Sección 1: Desaparición del dinero en efectivo.</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>En la era de la digitalización y la tecnología, el dinero en efectivo está enfrentando una disminución constante en su uso. Cada vez más, las transacciones financieras se realizan de forma electrónica, a través de tarjetas de crédito, aplicaciones móviles y otros métodos sin efectivo. Si bien esta tendencia puede parecer conveniente y moderna, es esencial considerar las consecuencias negativas que conlleva la desaparición del dinero en efectivo.</p>
+		        <p>A medida que nos adentramos en una sociedad cada vez más sin efectivo, es importante analizar detenidamente cómo esto afecta a la economía, la privacidad, la inclusión financiera y la seguridad de las personas.</p>
+		        
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		
+    			
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+    			<h1>Sección 2: Consecuencias negativas: Impactos económicos y sociales.</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La desaparición del dinero en efectivo conlleva una serie de impactos económicos sociales que merecen una atención especial. Estas consecuencias negativas pueden dividirse en tres categorías principales: exclusión financiera, perdida de privacidad y vulnerabilidad a ciber ataques.</p> 
+		        <p>En el caso de la exclusión financiera, a medida que avanzamos hacia una sociedad sin efectivo, existe el riesgo de que ciertos grupos de la población se queden rezagados. No todas las personas tienen acceso a servicios bancarios o tarjetas de crédito, y depender únicamente de transacciones electrónicas puede dejar atrás a quienes no tienen acceso a estas tecnologías.</p>
+		        <p>En el caso de la perdida de privacidad, con el uso creciente de pagos electrónicos, se recopila y almacena una gran cantidad de información personal. Esto plantea preocupaciones sobre la privacidad y la seguridad de los datos financieros, generando inquietudes sobre el potencial uso indebido de estos datos.</p>
+		        <p>Y por último, en cuanto a la vulnerabilidad de ciberataques, la dependencia de sistemas electrónicos para las transacciones financieras también aumenta la vulnerabilidad a ciberataques. Los hackers y delincuentes cibernéticos pueden explotar debilidades en las redes y sistemas de pago, lo que pone en riesgo tanto los datos financieros como el dinero de las personas.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		       
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="Img 2">
+        		<!--texto para la imagen-->
+        		>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Sección 3: Ventajas del dinero en efectivo.</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>A pesar de la tendencia hacia una sociedad sin efectivo, es crucial reconocer y preservar las ventajas del dinero en efectivo, que siguen siendo fundamentales en nuestra vida diaria. Algunas de las ventajas más destacadas incluyen accesibilidad universal, resistencia a interrupciones tecnológicas y privacidad y anonimato.</p>
+		        <p>En cuanto a la accesibilidad universal, el dinero en efectivo es una forma de pago que todos pueden utilizar, independientemente de su estatus económico o acceso a la tecnología. En el caso de la resistencia a interrupciones tecnológicas, en un mundo cada vez más dependiente de la tecnología, el dinero en efectivo es resistente a las interrupciones que pueden ocurrir debido a fallas en la red, apagones eléctricos o problemas técnicos en los sistemas de pago electrónicos. Y por último, el uso de dinero en efectivo permite a las personas mantener un mayor grado de privacidad y anonimato en sus transacciones. A diferencia de las transacciones electrónicas, que dejan un rastro digital, el dinero en efectivo no deja registro de quién lo utiliza o en qué se gasta.</p>
+		       		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		       
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Sección 4: Conclusión.</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La desaparición del dinero en efectivo es una tendencia innegable en nuestra sociedad moderna, impulsada por la digitalización y la conveniencia de las transacciones electrónicas. </p> 
+		        <p>Sin embargo, es fundamental sopesar las consecuencias negativas que esta transición conlleva. A lo largo de esta one page, hemos explorado las repercusiones económicas y sociales adversas, como la exclusión financiera, la pérdida de privacidad y la vulnerabilidad a ciberataques, que acompañan a la desaparición del dinero en efectivo. También hemos destacado la importancia de preservar el efectivo, reconociendo sus ventajas significativas, como la accesibilidad universal, su resistencia a las interrupciones tecnológicas y la capacidad de preservar la privacidad y el anonimato en las transacciones.</p>
+		        		        <p>La clave para abordar esta evolución de manera equilibrada reside en encontrar un punto intermedio que permita a las personas aprovechar las ventajas de las transacciones electrónicas sin dejar atrás a aquellos que dependen del dinero en efectivo y asegurar la protección de la privacidad y la seguridad de todos.</p>
+		        <p>La conversación sobre la desaparición del efectivo no debe pasar por alto estas preocupaciones, y es esencial que se promueva un enfoque inclusivo que garantice que nadie quede excluido ni comprometido en su privacidad en este nuevo mundo financiero.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img4.png" title="Img 4">
+        		<!--texto para la imagen-->
+        		
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">todos los derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
